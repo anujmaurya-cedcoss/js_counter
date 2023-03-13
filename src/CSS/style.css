@@ -1,27 +1,32 @@
-.wrapper{
+.wrapper {
     display: flex;
 }
+
 /* CSS for buttons */
 .btn {
     width: 50px;
-    height : 50px;
+    height: 50px;
     border-radius: 0px 5px 5px 0px;
     border: 2px solid #dddddd;
     border-style: none;
 }
+
 h1 {
     margin: 0px;
 }
+
 #plus {
     border-radius: 0px 5px 5px 0px;
 }
+
 #minus {
     border-radius: 5px 0px 0px 5px;
 }
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /* CSS for number box */
@@ -33,4 +38,3 @@ input::-webkit-inner-spin-button {
     height: 44px;
     border: 2px solid #dddddd;
 }
-
